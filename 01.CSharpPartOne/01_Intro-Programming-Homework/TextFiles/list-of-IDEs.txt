@@ -1,0 +1,7 @@
+Visual Studio
+Eclipse
+NetBeans
+Code::Blocks
+Aptana Studio
+
+Visual Studio is one of the best IDE. Microsoft's Intellisense is very useful also there is automatic code formatting but Visual Studio is very heavy program. Eclipse is very similar to Visual Studio but it is not used only for the .NET framework languages. NetBeans is good alternative to Eclipse, it's free but it is heavy program. Code::Blocks is very functional and very small in size, it is used for C, C++ and Fortran programming. Aptana Studio is used for web and script programming and it is free.

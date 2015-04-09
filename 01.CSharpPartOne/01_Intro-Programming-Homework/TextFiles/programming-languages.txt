@@ -1,0 +1,7 @@
+C
+Java
+PHP
+JavScript
+C++
+
+The syntax of Java, C, C++ and C# are very similar. In PHP and JavScript the variables are the same type. In Java, C, C++ and C# the variables must have types (int, char, string, ...). Java, C++, and C# are object-oriented programming languages. PHP, JavaScript and C are not object-oriented.

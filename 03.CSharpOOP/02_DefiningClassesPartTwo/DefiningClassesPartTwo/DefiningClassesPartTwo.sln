@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.VectorStructure", "VectorStructure\01.VectorStructure.csproj", "{609036F1-CAA5-44DF-91A5-5776241BC76A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.GenericClass", "GenericClass\02.GenericClass.csproj", "{1080B994-226F-4587-B2F0-64FD406BC705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MatrixClass", "Matrix\03.MatrixClass.csproj", "{7338A91E-C9B2-40CD-9A74-06A4855FA6E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{609036F1-CAA5-44DF-91A5-5776241BC76A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609036F1-CAA5-44DF-91A5-5776241BC76A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609036F1-CAA5-44DF-91A5-5776241BC76A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609036F1-CAA5-44DF-91A5-5776241BC76A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1080B994-226F-4587-B2F0-64FD406BC705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1080B994-226F-4587-B2F0-64FD406BC705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1080B994-226F-4587-B2F0-64FD406BC705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1080B994-226F-4587-B2F0-64FD406BC705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7338A91E-C9B2-40CD-9A74-06A4855FA6E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7338A91E-C9B2-40CD-9A74-06A4855FA6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7338A91E-C9B2-40CD-9A74-06A4855FA6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7338A91E-C9B2-40CD-9A74-06A4855FA6E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

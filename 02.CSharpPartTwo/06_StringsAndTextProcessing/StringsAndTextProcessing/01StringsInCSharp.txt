@@ -1,0 +1,16 @@
+A string is an object of type String whose value is text. Internally, the text is stored as a sequential read-only collection of Char objects.
+
+The string is immutable type. There is no null-terminating character at the end of a C# string; therefore a C# string can contain any number of embedded null characters ('\0').
+
+Clone -> Returns a reference to this instance of String.
+Compare(String, String)	-> Compares two specified String objects and returns an integer that indicates their relative position in the sort order.
+Concat(Object) -> Creates the string representation of a specified object.
+Contains -> Returns a value indicating whether a specified substring occurs within this string.
+Copy -> Creates a new instance of String with the same value as a specified String.
+EndsWith(String) -> Determines whether the end of this string instance matches the specified string.
+Equals(String) -> Determines whether this instance and another specified String object have the same value.
+Format(String, Object) -> Replaces one or more format items in a specified string with the string representation of a specified object.
+IndexOf(Char) -> Reports the zero-based index of the first occurrence of the specified Unicode character in this string.
+Split(Char[]) -> Returns a string array that contains the substrings in this instance that are delimited by elements of a specified Unicode character array.
+Substring(Int32) -> Retrieves a substring from this instance. The substring starts at a specified character position and continues to the end of the string.
+Trim() -> Removes all leading and trailing white-space characters from the current String object.

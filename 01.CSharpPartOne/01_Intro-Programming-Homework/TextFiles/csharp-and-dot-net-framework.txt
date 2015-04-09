@@ -1,0 +1,1 @@
+.NET is a software framework which includes large class library. C# is object-oriented and component-oriented programming language. C# mostly uses .NET framework.
