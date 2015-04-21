@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <form>
+        <table border="1" width="550" cellspacing="0">
+            <tr>
+                <td align="center">
+                    <label for="lastName"><b>Last Name</b></label>
+                </td>
+                <td>
+                    <input type="text" name="lastName" id="lastName" size="30" />
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <label for="firstName"><b>First Name</b></label>
+                </td>
+                <td>
+                    <input type="text" name="firstName" id="firstName" size="30" />
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <label for="address"><b>Address</b></label>
+                </td>
+                <td>
+                    <textarea name="address" id="address" cols="30" rows="4"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <label for="city"><b>City</b></label>
+                </td>
+                <td>
+                    <input type="text" name="city" id="city" size="17" /> <label for="state">State</label><input type="text" name="state" id="state" size="2" />
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <label for="zip"><b>Zip/Postal code</b></label>
+                </td>
+                <td>
+                    <input type="text" name="zip" id="zip" size="4" />
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <label for="country"><b>Country</b></label>
+                </td>
+                <td>
+                    <select name="country" id="country">
+                        <option value="Bulgaria">Bulgaria</option>
+                        <option value="Croatia">Croatia</option>
+                        <option value="Germany">Germany</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <label for="ccode"><b>Phone(country code, area code, number)</b></label>
+                </td>
+                <td>
+                    (+<input type="text" name="ccode" id="ccode" size="1" />) <input type="text" name="acode" size="2" /> <input type="text" name="number" size="3" />
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <label for="email"><b>E-mail</b></label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="email" value=" " size="30" />
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <label for="bday"><b>Birth date</b></label>
+                </td>
+                <td>
+                    <input type="date" name="bday" id="bday" value=" " />
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <label for="gender"><b>Gender</b></label>
+                </td>
+                <td>
+                    <select name="gender" id="gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <b>Starting date</b>
+                </td>
+                <td>
+                    <input type="radio" name="gdate[]" id="gspring" value=" " />
+                    <label for="gspring">Spring 2015</label>
+                    <input type="radio" name="gdate[]" id="gsummer" value=" " />
+                    <label for="gsummer">Summer 2015</label>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <label for="comments"><b>Comments/Questions</b></label>
+                </td>
+                <td>
+                    <textarea name="comments" id="comments" cols="30" rows="6"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="#2AA99B" colspan="2">
+                    <input type="submit" name="submit" value="Submit" />
+                    <input type="reset" name="reset" value="Clear This Form" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
