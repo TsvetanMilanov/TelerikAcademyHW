@@ -1,0 +1,41 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    font-family: Arial;
+    letter-spacing: 1px;
+}
+
+table {
+    border-collapse: collapse;
+    border-bottom: 1px outset #ECECD8;
+}
+
+th {
+    background-image: url(../Images/th_background.gif);
+    background-repeat: repeat-x;
+    height: 20px;
+    border-bottom: 1px inset grey;
+    border-left: 1px inset grey;
+    color: white;
+    font-weight: 100;
+    text-align: left;
+    padding: 0 5px 0 5px;
+}
+
+td {
+    border-left: 1px outset #ECECD8;
+    padding: 4px 44px 4px 4px;
+}
+
+tr:nth-child(2n+1) {
+    background-color: #ECECD8;
+}
+
+img {
+    margin-top: 0;
+}
+
+.AlignTop {
+    vertical-align: top;
+}
