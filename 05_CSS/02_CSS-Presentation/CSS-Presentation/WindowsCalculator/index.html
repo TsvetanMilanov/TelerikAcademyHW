@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Windows Calculator</title>
+    <link href="Styles/index_style.css" rel="stylesheet" />
+</head>
+<body>
+    <main>
+        <section class="wraper">
+            <div class="header">
+                <div class="LeftPart">
+                    <img class="CalculatorIcon" src="Images/calculator_icon.gif" />
+                    <div class="HeaderText">Calculator</div>
+                </div>
+                <div class="RightPart">
+                    <input type="image" src="Images/minimize_button.gif" /><input type="image" src="Images/maximize_button.gif" /><input type="image" src="Images/exit_button.gif" />
+                </div>
+            </div>
+            <div class="content">
+                <div class="contentheader">
+                    <table>
+                        <tr>
+                            <td>View</td>
+                            <td>Edit</td>
+                            <td>Help</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="ContentOfContent">
+                    <div class="TextBox">
+                        8854455
+                    </div>
+                    <div class="BinaryRepresentation">
+                        <div class="BinaryInside">
+                            <table>
+                                <tr>
+                                    <td>0000</td>
+                                    <td>0000</td>
+                                    <td>0000</td>
+                                    <td>0000</td>
+                                    <td>0000</td>
+                                    <td>0000</td>
+                                    <td>0000</td>
+                                    <td>0000</td>
+                                </tr>
+                                <tr>
+                                    <td class="SubNumber" colspan="4">63</td>
+                                    <td class="SubNumber" colspan="3">47</td>
+                                    <td class="SubNumber RightAlign">32</td>
+                                </tr>
+                                <tr>
+                                    <td>0000</td>
+                                    <td>0000</td>
+                                    <td>1000</td>
+                                    <td>0111</td>
+                                    <td>0001</td>
+                                    <td>1011</td>
+                                    <td>1011</td>
+                                    <td>0111</td>
+                                </tr>
+                                <tr>
+                                    <td class="SubNumber" colspan="4">31</td>
+                                    <td class="SubNumber" colspan="3">15</td>
+                                    <td class="SubNumber RightAlign">0</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="Functions">
+                        <table>
+                            <tr>
+                                <td colspan="2" rowspan="3">
+                                    <input type="radio" name="NumSystem" id="Hex" /><label for="Hex">Hex</label><br />
+                                    <input type="radio" name="NumSystem" id="Dec" checked="checked" /><label for="Dec">Dec</label><br />
+                                    <input type="radio" name="NumSystem" id="Oct" /><label for="Oct">Oct</label><br />
+                                    <input type="radio" name="NumSystem" id="Bin" /><label for="Bin">Bin</label>
+                                </td>
+                                <td></td>
+                                <td><input type="button" value="Mod" class="Button Function Active" /></td>
+                                <td>
+                                    <input type="button" value="A" class="Button" />
+                                </td>
+                                <td><input type="button" value="MC" class="Button Active" /></td>
+                                <td><input type="button" value="MR" class="Button Active" /></td>
+                                <td><input type="button" value="MS" class="Button Active" /></td>
+                                <td><input type="button" value="M+" class="Button Active" /></td>
+                                <td><input type="button" value="M-" class="Button Active" /></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" value="(" class="Button Function Active" /></td>
+                                <td><input type="button" value=")" class="Button Function Active" /></td>
+                                <td><input type="button" value="B" class="Button" /></td>
+                                <td><input type="button" value="➙" class="Button Function Special Active" /></td>
+                                <td><input type="button" value="CE" class="Button Function Active" /></td>
+                                <td><input type="button" value="C" class="Button Function Active" /></td>
+                                <td><input type="button" value="&plusmn;" class="Button Function Active" /></td>
+                                <td><input type="button" value="&radic;" class="Button" /></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" value="RoL" class="Button Function Active" /></td>
+                                <td><input type="button" value="RoR" class="Button Function Active" /></td>
+                                <td><input type="button" value="C" class="Button" /></td>
+                                <td><input type="button" value="7" class="Button Number Active" /></td>
+                                <td><input type="button" value="8" class="Button Number Active" /></td>
+                                <td><input type="button" value="9" class="Button Number Active" /></td>
+                                <td><input type="button" value="/" class="Button Function Active" /></td>
+                                <td><input type="button" value="%" class="Button" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" rowspan="3">
+                                    <input type="radio" name="Words" id="Qword" checked="checked" /><label for="Qword">Qword</label><br />
+                                    <input type="radio" name="Words" id="Dword" /><label for="Dword">Dword</label><br />
+                                    <input type="radio" name="Words" id="Word" /><label for="Word">Word</label><br />
+                                    <input type="radio" name="Words" id="Byte" /><label for="Byte">Byte</label>
+                                </td>
+                                <td><input type="button" value="Or" class="Button Function Active" /></td>
+                                <td><input type="button" value="Xor" class="Button Function Active" /></td>
+                                <td><input type="button" value="D" class="Button" /></td>
+                                <td><input type="button" value="4" class="Button Number Active" /></td>
+                                <td><input type="button" value="5" class="Button Number Active" /></td>
+                                <td><input type="button" value="6" class="Button Number Active" /></td>
+                                <td><input type="button" value="*" class="Button Function Active" /></td>
+                                <td><input type="button" value="1/x" class="Button Serif" /></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" value="Lsh" class="Button Function Active" /></td>
+                                <td><input type="button" value="Rsh" class="Button Function Active" /></td>
+                                <td><input type="button" value="E" class="Button" /></td>
+                                <td><input type="button" value="1" class="Button Number Active" /></td>
+                                <td><input type="button" value="2" class="Button Number Active" /></td>
+                                <td><input type="button" value="3" class="Button Number Active" /></td>
+                                <td><input type="button" value="-" class="Button Function Active" /></td>
+                                <td rowspan="2"><input type="button" value="=" class="Button Function Active" /></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" value="Not" class="Button Function Active" /></td>
+                                <td><input type="button" value="And" class="Button Function Active" /></td>
+                                <td><input type="button" value="F" class="Button" /></td>
+                                <td colspan="2"><input type="button" value="0" class="Button Number Active" /></td>
+                                <td><input type="button" value="." class="Button" /></td>
+                                <td><input type="button" value="+" class="Button Function Active" /></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

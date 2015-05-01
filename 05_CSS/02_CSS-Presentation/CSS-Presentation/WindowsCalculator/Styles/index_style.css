@@ -1,0 +1,203 @@
+﻿body {
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+.wraper {
+    border: 1px solid #bbdbfb;
+    border-radius: 7px;
+    width: 430px;
+    height: 430px;
+    background: #bbdbfb;
+    padding-left: 7px;
+}
+
+    .wraper .header .LeftPart {
+        padding-top: 5px;
+        width: 250px;
+    }
+
+        .wraper .header .LeftPart .CalculatorIcon {
+            margin-top: 0;
+            float: left;
+        }
+
+        .wraper .header .LeftPart .HeaderText {
+            margin-left: 5px;
+            width: 200px;
+            float: left;
+        }
+
+
+    .wraper .header .RightPart {
+        width: 120px;
+        float: right;
+        margin: -7px -5px 0 0;
+    }
+
+        .wraper .header .RightPart input:hover {
+            opacity: 0.8;
+        }
+
+    .wraper .content {
+        margin-top: 25px;
+        width: 420px;
+        height: 390px;
+        border: 1px solid grey;
+    }
+
+        .wraper .content .contentheader {
+            background: url(../Images/content_header_background.gif) repeat-x;
+            height: 19px;
+            padding: 2px 0 0 5px;
+        }
+
+            .wraper .content .contentheader table {
+                margin-top: -5px;
+            }
+
+                .wraper .content .contentheader table td {
+                    padding-right: 15px;
+                }
+
+                    .wraper .content .contentheader table td:first-letter {
+                        text-decoration: underline;
+                    }
+
+        .wraper .content .ContentOfContent {
+            background: url(../Images/content_content_background.gif) repeat-x;
+            height: 370px;
+            padding: 10px 0 0 12px;
+        }
+
+            .wraper .content .ContentOfContent .TextBox {
+                width: 390px;
+                height: 33px;
+                border: 1px solid grey;
+                border-radius: 2px;
+                background: url('../Images/text_box_gradient.gif') repeat-x;
+                text-align: right;
+                vertical-align: bottom;
+                font-size: 1.4em;
+                padding: 20px 5px 0 0;
+                margin-bottom: 5px;
+            }
+
+            .wraper .content .ContentOfContent .BinaryRepresentation {
+                width: 395px;
+                border: 1px solid grey;
+                border-radius: 2px;
+                height: 70px;
+                margin-bottom: 5px;
+            }
+
+                .wraper .content .ContentOfContent .BinaryRepresentation table {
+                    border-collapse: collapse;
+                    border: 1px solid white;
+                    width: 395px;
+                }
+
+                    .wraper .content .ContentOfContent .BinaryRepresentation table td {
+                        padding: 0 0 0 8px;
+                        font-family: Consolas;
+                        color: #151558;
+                    }
+
+                        .wraper .content .ContentOfContent .BinaryRepresentation table td.SubNumber {
+                            color: grey;
+                        }
+
+                        .wraper .content .ContentOfContent .BinaryRepresentation table td.RightAlign {
+                            text-align: right;
+                            padding-right: 12px;
+                        }
+
+            .wraper .content .ContentOfContent .Functions table {
+                color: #151558;
+                font-size: 0.9em;
+                width: 405px;
+                border-collapse: separate;
+                border-spacing: 5px;
+                margin-left: -5px;
+            }
+
+                .wraper .content .ContentOfContent .Functions table td {
+                    border: 1px solid grey;
+                    border-radius: 2px;
+                    width: 33px;
+                    height: 28px;
+                    padding: 0;
+                }
+
+                .wraper .content .ContentOfContent .Functions table label {
+                    vertical-align: top;
+                }
+
+                .wraper .content .ContentOfContent .Functions table td input.Button {
+                    border: none;
+                    width: 30px;
+                    height: 25px;
+                    color: #151558;
+                    vertical-align: bottom;
+                    text-align: center;
+                    font-size: 1.2em;
+                }
+
+                .wraper .content .ContentOfContent .Functions table td input.Active {
+                    border: 1px solid white;
+                    border-radius: 2px;
+                    height: 28px;
+                    width: 33px;
+                }
+
+                .wraper .content .ContentOfContent .Functions table td input.Function {
+                    font-size: 1em;
+                    text-align: center;
+                    padding: 0;
+                    background: url(../Images/func_button_gradient.gif) repeat-x;
+                }
+
+                .wraper .content .ContentOfContent .Functions table td input.Special {
+                    -moz-transform: scaleX(-1);
+                    -ms-transform: scaleX(-1);
+                    -o-transform: scaleX(-1);
+                    -webkit-transform: scaleX(-1);
+                    transform: scaleX(-1);
+                    font-size: 1.5em;
+                }
+
+                .wraper .content .ContentOfContent .Functions table td input.Number {
+                    background: url(../Images/num_button_gradient.gif) repeat-x;
+                }
+
+                .wraper .content .ContentOfContent .Functions table td[colspan="2"] input.Active {
+                    width: 73px;
+                }
+
+                .wraper .content .ContentOfContent .Functions table td[rowspan="2"] input.Function {
+                    height: 63px;
+                    font-size: 2em;
+                    background-size: 100% 100%;
+                }
+
+                .wraper .content .ContentOfContent .Functions table td input.Serif {
+                    font-family: serif;
+                    font-style: italic;
+                    padding: 0;
+                    text-align: center;
+                }
+
+                .wraper .content .ContentOfContent .Functions table td input.Active:hover {
+                    background: url(../Images/active_button_gradient.gif) repeat-x;
+                }
+
+                .wraper .content .ContentOfContent .Functions table td[rowspan="2"] input.Active:hover {
+                    background: url(../Images/active_button_gradient.gif) repeat-x;
+                    background-size: 100% 100%;
+                }
+
+                .wraper .content .ContentOfContent .Functions table td .Active:hover {
+                    border: 1px solid #ffcb00;
+                    border-radius: 2px;
+                    box-shadow: 1px 1px 10px 0 #ffcb00;
+                }
