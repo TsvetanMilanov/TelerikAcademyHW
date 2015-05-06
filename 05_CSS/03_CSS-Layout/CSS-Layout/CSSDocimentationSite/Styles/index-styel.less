@@ -1,0 +1,187 @@
+﻿body {
+    margin: 3px 0 0 1px;
+    padding: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+
+    section.content {
+        background: #f1f1f1;
+        width: 800px;
+        border: 1px solid black;
+        padding: 2px 2px 0 1px;
+
+        aside.leftMenu {
+            float: left;
+            width: 17%;
+
+            nav {
+                margin: 11px 0 0 0;
+                display: inline-block;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-size: 0.75em;
+                    font-weight: bold;
+
+                    img {
+                        vertical-align: text-bottom;
+                    }
+                }
+
+                ul {
+                    list-style-type: none;
+                    padding: 2px;
+                    margin: 9px 0 0 0;
+
+                    li {
+                        line-height: 14px;
+
+                        a {
+                            font-family: Tahoma;
+
+                            strong {
+                                color: #8d0301;
+                            }
+
+                            color: black;
+                            font-weight: normal;
+                        }
+                    }
+                }
+            }
+        }
+
+        section.clearfix {
+            float: left;
+            width: 64%;
+
+            main {
+                display: inline-block;
+                border: 1px solid #a2a2a2;
+                padding: 0 5px 0 5px;
+                background: white;
+
+                div.headNavigaton {
+                    h1 {
+                        margin-bottom: 10px;
+                    }
+                }
+
+                button {
+                    border: 1px solid black;
+                    background: white;
+                    font-size: 0.7em;
+                    text-align: center;
+                    height: 20px;
+                    padding: 0;
+
+                    &.next {
+                        padding-left: 30px;
+
+                        span {
+                            margin: 0 0 0 25px;
+                        }
+                    }
+
+                    &.previous {
+                        padding-right: 25px;
+
+                        span {
+                            margin: 0 18px 0 0;
+                        }
+                    }
+                }
+
+                article {
+                    margin-bottom: 10px;
+
+                    header {
+                        h2 {
+                            background: #808080;
+                            color: white;
+                            font-size: 0.8em;
+                            font-weight: bold;
+                            padding-left: 5px;
+                            margin-top: 0;
+                        }
+                    }
+
+                    section {
+                        width: 100%;
+                        font-size: 0.7em;
+                        font-family: Verdana;
+
+                        img {
+                            float: left;
+                        }
+                    }
+                }
+
+                div.footerNavigation {
+                    margin-bottom: 40px;
+                }
+            }
+        }
+
+        aside.rightPanel {
+            float: right;
+            width: 19%;
+
+            article {
+                margin: 0 0 1px 2px;
+                border: 1px solid #a2a2a2;
+                text-align: center;
+
+                header {
+
+                    h2 {
+                        background: #808080;
+                        color: white;
+                        font-size: 0.8em;
+                        font-weight: bold;
+                        margin: 0;
+                    }
+                }
+
+                section {
+                    font-size: 0.7em;
+                    font-family: Verdana;
+                    background: white;
+                    padding: 8px 0;
+
+                    img {
+                        float: left;
+                    }
+
+                    input[type="text"] {
+                        width: 65%;
+                    }
+
+                    button {
+                        padding-left: 0;
+                        padding-right: 0;
+                    }
+                }
+
+                footer {
+                    background: white;
+                    padding: 0 0 3px 0;
+                }
+            }
+        }
+    }
+}
+
+.clearfix:after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.redLink {
+    color: #8f0907;
+    font-size: 0.7rem;
+}
