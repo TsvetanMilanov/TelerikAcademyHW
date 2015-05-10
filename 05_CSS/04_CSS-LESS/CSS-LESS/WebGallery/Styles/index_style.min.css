@@ -1,0 +1,1 @@
+﻿body,div,ul,li{margin:0;padding:0}body ul li{display:inline}body ul li label img{width:10%;height:10%}body ul li ul{position:absolute}body ul li ul li img{display:none}body ul li ul li input[type="radio"]{display:none}body ul li ul li input[type="radio"]:checked~img{display:initial}

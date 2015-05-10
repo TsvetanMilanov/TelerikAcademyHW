@@ -1,0 +1,37 @@
+﻿body, div, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    ul {
+        li {
+            display: inline;
+
+            label {
+                img {
+                    width: 10%;
+                    height: 10%;
+                }
+            }
+
+            ul {
+                position: absolute;
+
+                li {
+                    img {
+                        display: none;
+                    }
+
+                    input[type="radio"] {
+                        display: none;
+                    }
+
+                    input[type="radio"]:checked ~ img {
+                        display: initial;
+                    }
+                }
+            }
+        }
+    }
+}
