@@ -1,25 +1,35 @@
-var allElements = document.getElementsByTagName('*');
-var isFirstWord = true;
-var smallest = "";
+function findSmallestAndLargest(objectToCheck) {
+    var smallest = '';
+    var largest = '';
+    var isFirstProperty = true;
 
-for (var i = 0; i < allElements.length; i++) {
-    var currentElement = allElements[i];
-    var allProperties = currentElement.attributes;
-
-    for (var j = 0; j < allProperties.length; j++) {
-        var propertiesValue = allProperties[j].value;
-
-        if (isFirstWord) {
-            smallest = propertiesValue;
-            isFirstWord = false;
+    for (var property in objectToCheck) {
+        property = property.toLowerCase();
+        if (isFirstProperty) {
+            smallest = property;
+            largest = property;
+            isFirstProperty = false;
             continue;
-        } else {
-            if (smallest.localeCompare(propertiesValue) > 0) {
-                smallest = propertiesValue;
-            }
+        }
+
+        if (smallest > property) {
+            smallest = property;
+        }
+
+        if (largest < property) {
+            largest = property;
         }
     }
+
+    console.log('Smallest in ' + objectToCheck + ' is: ' + smallest);
+    document.writeln('<p>' + 'Smallest in ' + objectToCheck + ' is: ' + smallest + '</p>');
+
+    console.log('Largest in ' + objectToCheck + ' is: ' + largest);
+    document.writeln('<p>' + 'Largest in ' + objectToCheck + ' is: ' + largest + '</p>');
 }
 
-console.log(smallest);
-document.writeln('<p>' + smallest + '</p>');
+findSmallestAndLargest(document);
+
+findSmallestAndLargest(window);
+
+findSmallestAndLargest(navigator);
