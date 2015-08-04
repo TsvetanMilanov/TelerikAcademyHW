@@ -73,7 +73,7 @@ describe('Tests for Closures and Scopes in JavaScript', function () {
 			it('expect to throw, when with invalid title (short)', function () {
 				function test() {
 					library.books.add({
-						title: CONSTS.INVALID.BOOK_TITLE.SHORT,
+						title: CONSTS.INVALID.BOOK_TITTE.SHORT,
 						isbn: CONSTS.VALID.BOOK_ISBN.TEN_DIGITS,
 						author: CONSTS.VALID.AUTHOR,
 						category: CONSTS.VALID.CATEGORY
@@ -85,7 +85,7 @@ describe('Tests for Closures and Scopes in JavaScript', function () {
 			it('expect to throw, when with invalid title (long)', function () {
 				function test() {
 					library.books.add({
-						title: CONSTS.INVALID.BOOK_TITLE.LONG,
+						title: CONSTS.INVALID.BOOK_TITTE.LONG,
 						isbn: CONSTS.VALID.BOOK_ISBN.TEN_DIGITS,
 						author: CONSTS.VALID.AUTHOR,
 						category: CONSTS.VALID.CATEGORY
@@ -329,7 +329,7 @@ describe('Tests for Closures and Scopes in JavaScript', function () {
 					author: CONSTS.VALID.AUTHOR,
 					category: CONSTS.VALID.CATEGORY + '7'
 				}];
-				for(var i in books) {
+				for(i in books) {
 					library.books.add(books[i]);
 				}
 				expect(library.categories.list()).to.eql([books[0].category, books[1].category, books[2].category]);

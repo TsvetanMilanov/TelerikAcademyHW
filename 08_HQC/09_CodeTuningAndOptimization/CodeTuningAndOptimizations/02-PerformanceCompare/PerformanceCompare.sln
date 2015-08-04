@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SimpleMathCompare", "SimpleMathComparer\01.SimpleMathCompare.csproj", "{75F76F9C-5912-463B-BF0B-25F0C05CD1ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.AdvancedMathCompare", "AdvancedMathCompare\02.AdvancedMathCompare.csproj", "{0ACAD964-1F30-4133-BDC0-0716B99ADC66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.SortingAlgorithmsCompare", "SortingAlgorithmsCompare\03.SortingAlgorithmsCompare.csproj", "{4845EC83-AE97-4CBB-A3AB-041436F32EEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75F76F9C-5912-463B-BF0B-25F0C05CD1ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F76F9C-5912-463B-BF0B-25F0C05CD1ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F76F9C-5912-463B-BF0B-25F0C05CD1ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F76F9C-5912-463B-BF0B-25F0C05CD1ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ACAD964-1F30-4133-BDC0-0716B99ADC66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ACAD964-1F30-4133-BDC0-0716B99ADC66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ACAD964-1F30-4133-BDC0-0716B99ADC66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ACAD964-1F30-4133-BDC0-0716B99ADC66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4845EC83-AE97-4CBB-A3AB-041436F32EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4845EC83-AE97-4CBB-A3AB-041436F32EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4845EC83-AE97-4CBB-A3AB-041436F32EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4845EC83-AE97-4CBB-A3AB-041436F32EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.RefactorChef", "RefactorChef\01.RefactorChef.csproj", "{BACAC1B3-0B48-423C-BA05-C8056FDAB573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.RefactorStatements", "02.RefactorStatements\02.RefactorStatements.csproj", "{57FAA81D-2076-4AC8-9236-F44CDA3CE4C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.RefactorLoop", "RefactorLoop\03.RefactorLoop.csproj", "{5549C8C6-E155-400E-A4C5-DD91F18C7083}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BACAC1B3-0B48-423C-BA05-C8056FDAB573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BACAC1B3-0B48-423C-BA05-C8056FDAB573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BACAC1B3-0B48-423C-BA05-C8056FDAB573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BACAC1B3-0B48-423C-BA05-C8056FDAB573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57FAA81D-2076-4AC8-9236-F44CDA3CE4C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FAA81D-2076-4AC8-9236-F44CDA3CE4C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FAA81D-2076-4AC8-9236-F44CDA3CE4C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FAA81D-2076-4AC8-9236-F44CDA3CE4C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5549C8C6-E155-400E-A4C5-DD91F18C7083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5549C8C6-E155-400E-A4C5-DD91F18C7083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5549C8C6-E155-400E-A4C5-DD91F18C7083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5549C8C6-E155-400E-A4C5-DD91F18C7083}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
