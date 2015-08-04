@@ -52,7 +52,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TestDrivenDevelopment\Poker.csproj">
+    <ProjectReference Include="..\Poker\Poker.csproj">
       <Project>{28fe6ba3-4622-406e-81c4-419b0d2368f9}</Project>
       <Name>Poker</Name>
     </ProjectReference>
