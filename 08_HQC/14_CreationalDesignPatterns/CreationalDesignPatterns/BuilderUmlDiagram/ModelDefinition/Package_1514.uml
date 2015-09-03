@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="24b11c7c-7ab9-4981-a985-5f5ce0b91e24"
+  name="FactoryMethod"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="2e0dd2f0-5173-4eb4-bc8d-e2ea4547ea24"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DFactoryMethod"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="58adc4a3-1175-44d7-bfa6-55e61b1a0ea1"
+        LastKnownName="Factories"
+        LastKnownLocation="Package1_1514.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="bcf46dc0-712c-41b8-a34d-12723069b9a9"
+        LastKnownName="Computers"
+        LastKnownLocation="Package2_1514.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

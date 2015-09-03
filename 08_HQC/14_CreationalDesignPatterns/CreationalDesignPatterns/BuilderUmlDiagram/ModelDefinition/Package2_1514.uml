@@ -1,0 +1,862 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="bcf46dc0-712c-41b8-a34d-12723069b9a9"
+  name="Computers"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="570d571e-18ba-4f31-b6c1-69e3989736bb"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DFactoryMethod.Computers"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="5e2e44a0-b591-49be-9a8e-30c60652089c"
+        name="Computer"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="12549961-dea7-4b26-bf31-ac267361907e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FFactoryMethod%2Fbin%2FDebug%2FFactoryMethod.exe&quot; Namespace%3DFactoryMethod.Computers Type%3DComputer"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="fb10595c-b19a-4b39-b57b-a0faae0d4682"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="41e6b44a-231a-48d2-9563-5d955413ec4c">
+                <propertyInstance
+                  Id="89331961-150f-46d7-b86e-c7cc82051780"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dbde323f-f535-4c40-98f0-1ab5ae00a6d4">
+                <propertyInstance
+                  Id="ba7e1f59-b226-4ba5-b952-6b006ec80c97"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9f05344f-0a63-4009-8f2a-860d0c9fdfb8">
+                <propertyInstance
+                  Id="b553271a-e826-4fab-a8b3-b7f7fd022590"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="88d0439e-7c78-463c-a6fb-a7c5111c7637">
+                <propertyInstance
+                  Id="01d10058-d88c-47b5-8843-0526d55458e6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f2aa6037-5a33-4b8d-a5fa-130720419d1a">
+                <propertyInstance
+                  Id="f427987e-c327-402d-853c-662393ce62e3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="2cf687f3-fc6b-46af-a957-ecfc0e686db9"
+            isDerived="false"
+            sourceEndRoleName="Computer"
+            targetEndRoleName="Parts"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="9b512478-9a75-4bc3-a49f-ba99bb2fa242"
+              LastKnownName="IDictionary&lt;String‎, String‎&gt;"
+              LastKnownLocation="Package5_1514.uml" />
+            <description>Property Parts references type IDictionary&lt;String‎, String‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="221ffb21-3d4b-47ae-941b-e377c7bbfcc5"
+                  name="Computer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="55613a25-bbcd-48db-8a08-bd37f14b638b"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="33ab6466-3832-472a-9541-179d53e5a5ae"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9c4d2dd2-3dbd-46b9-872b-b7d41738bbe5"
+                  name="Parts"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="eac685df-dfa6-4025-987e-be7c53a9d244"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="ee89f4f5-bbe8-4c2f-9613-6ee05cf9787c"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="8496792e-7a13-4c20-b139-18d83286bf03"
+            name="Parts"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2446ed5e-20ea-4e62-9b63-3f4f095d4845"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FFactoryMethod%2Fbin%2FDebug%2FFactoryMethod.exe&quot; Namespace%3DFactoryMethod.Computers Type%3DComputer Member%3DParts"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ed02d37b-403a-44bf-b165-1bb89dede3c1"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f30e23a-1539-423c-9f9b-c79b7eaf3bbf">
+                    <propertyInstance
+                      Id="5879c726-dcbc-409f-8cac-f7568f8e44b3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6ef5b67-299c-4dbd-bbbc-1ad1ed54370d">
+                    <propertyInstance
+                      Id="9f54a2bb-1bde-406f-a659-f609430bb319"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b07ec04-7b70-4885-8058-c42d7766d860">
+                    <propertyInstance
+                      Id="b6e1eddc-0cba-42f9-8387-5f7873719c34"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0070f8f7-55d6-4946-bbeb-67bc5da9de0a">
+                    <propertyInstance
+                      Id="8068111a-951a-479a-8020-0c441476a3eb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5171525a-0917-49ab-98ab-c1f9d83612b6">
+                    <propertyInstance
+                      Id="568d0d92-c11a-40e5-850d-e10f6ca2ba29"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfa37632-24e4-4249-a465-44602e1b7d50">
+                    <propertyInstance
+                      Id="b7ed8969-7733-4fd6-b059-b28746ad4476"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed40dd9f-34c8-47a8-8c50-94ffd7221d6a">
+                    <propertyInstance
+                      Id="6ffb6c12-21bf-48d6-83b7-3e4e69573b2b"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="9b512478-9a75-4bc3-a49f-ba99bb2fa242"
+                LastKnownName="IDictionary&lt;String‎, String‎&gt;"
+                LastKnownLocation="Package5_1514.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e675a2f7-6eb0-42b9-b82e-07ed1f1a9d7a"
+            name="Computer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="41a3e42c-8874-412d-9c06-2c63c03495ab"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FFactoryMethod%2Fbin%2FDebug%2FFactoryMethod.exe&quot; Namespace%3DFactoryMethod.Computers Type%3DComputer Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f31e5e92-a258-4c44-ac8f-059d5e003d75"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4340278-cb70-412b-b066-c6c852127aa4">
+                    <propertyInstance
+                      Id="be39d284-a2cd-4076-aaf5-ec14278e3643"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f363974-a65b-4c0a-9369-1f21eee3cb92">
+                    <propertyInstance
+                      Id="b08b7923-2fc7-4060-af4f-e24e46839757"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4b60e8b-359f-4ec1-9f31-35be84bb838c">
+                    <propertyInstance
+                      Id="f4f849ee-880f-495f-a2d0-94edc1e7785e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab92e7e7-2290-46d6-b78d-6a0d373251c5">
+                    <propertyInstance
+                      Id="83e725c6-ddf6-4edc-a19c-6b7818473aa8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0def4fe-2193-4779-bae8-9c0d717145f6">
+                    <propertyInstance
+                      Id="01a15703-7bc1-4563-83c0-d525dd2512d0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40a890ea-d80c-4a3b-8de3-72bee1b2cca3">
+                    <propertyInstance
+                      Id="9aa8bfb6-f368-4084-b0fa-9a5a8951e7c1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2fd5bec7-812c-4980-93ba-68f5efbf5ac7"
+                  name="parts"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="10302cb8-db76-4e4a-a668-57c527a3212c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FFactoryMethod%2Fbin%2FDebug%2FFactoryMethod.exe&quot; Namespace%3DFactoryMethod.Computers Type%3DComputer Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Dparts"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="9b512478-9a75-4bc3-a49f-ba99bb2fa242"
+                      LastKnownName="IDictionary&lt;String‎, String‎&gt;"
+                      LastKnownLocation="Package5_1514.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="01b9501d-776c-4fd5-822e-2664907bb415"
+            name="GetInformation"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b77c6676-abd0-4fe7-be44-f4e754ad96ad"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FFactoryMethod%2Fbin%2FDebug%2FFactoryMethod.exe&quot; Namespace%3DFactoryMethod.Computers Type%3DComputer Member%3DGetInformation"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e7787de2-0541-4b62-9665-2cf2b7057d97"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3575f793-f461-436a-8002-98bef27b9cf3">
+                    <propertyInstance
+                      Id="eb0a91e4-2d1a-4d39-917c-18f9315b95b1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8125b26-1d38-42e7-bcc4-15364560d880">
+                    <propertyInstance
+                      Id="a5b23a94-1824-4060-b0eb-f6dfb253c8b2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5616e19c-2baf-4c89-b897-88898e8f34fd">
+                    <propertyInstance
+                      Id="b9b0881f-21d5-409d-925e-cc53310efee6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13c30efc-6e27-4223-b9e0-f6b5d6ee5b74">
+                    <propertyInstance
+                      Id="fd6a7126-9dfe-410a-980a-d82dfcb4f357"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="804112be-3a0c-48a0-91f6-0fbaf9941c95">
+                    <propertyInstance
+                      Id="58e489a4-750e-4e88-baca-b3f711250eaf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="818f8b86-248f-457a-96e1-3edab8931e84">
+                    <propertyInstance
+                      Id="ba7b46f5-fe55-4f64-8ffb-eea5b9631c8f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f26c4b86-9d99-4e53-9441-56ca24f1435a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UmlDiagrams.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a489c1cc-40bb-4b0b-83ad-2715c179f36c"
+        name="StandardComputer"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c1acf7a2-2378-4757-875f-06f47a75be6d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FFactoryMethod%2Fbin%2FDebug%2FFactoryMethod.exe&quot; Namespace%3DFactoryMethod.Computers Type%3DStandardComputer"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3772a855-2d82-4e17-892f-973ba3337769"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="035c44e9-28ce-4aba-8e26-1b1e1f2fd3cc">
+                <propertyInstance
+                  Id="3f2a140e-0390-4036-896e-2d53c597130c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9c8bc701-9d6f-43cd-9930-ce5581156e9b">
+                <propertyInstance
+                  Id="554bc43f-414e-4b79-894f-3958f1ff7c97"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6d7061c8-5a65-4011-81c2-d1e4d93a9202">
+                <propertyInstance
+                  Id="3dc4e398-3e14-466e-b0ba-467e3ba722c1"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a042bee1-2315-4f35-b9d2-524f7f965969">
+                <propertyInstance
+                  Id="21850eac-de0f-42c1-b0ec-d6e48cd6052d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7ba4cfa0-2030-42ec-acfe-d9867c864907">
+                <propertyInstance
+                  Id="697ca8a9-d285-4677-8f73-9be1270011cf"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="13dfc3d6-f11d-4e22-9186-6fc7659fcb83"
+            isSubstitutable="false">
+            <classMoniker
+              Id="5e2e44a0-b591-49be-9a8e-30c60652089c"
+              LastKnownName="Computer"
+              LastKnownLocation="Package2_1514.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="f123b0c6-40ca-47ee-b384-1d72a9064a04"
+            name="StandardComputer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3773679d-e754-4606-9b73-771f5184424a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FFactoryMethod%2Fbin%2FDebug%2FFactoryMethod.exe&quot; Namespace%3DFactoryMethod.Computers Type%3DStandardComputer Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1dd9b8f4-24fe-4d7f-89dc-eab2e4fb397d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f71b7063-5d54-47fb-b4d7-a14904783692">
+                    <propertyInstance
+                      Id="59a3b848-d45e-4007-880a-f00afc068eb5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ef17dd0-0339-4149-bd9a-0429b8324b15">
+                    <propertyInstance
+                      Id="7cc5a0c2-d5b9-4f4c-9841-043d7708ddbc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b55e2be2-89dc-4e58-b197-54ee6d3815a5">
+                    <propertyInstance
+                      Id="4b3841c8-16f9-47d7-8f8b-09fdd6b3a93e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ebd59045-a177-4a4d-bda0-23aa3dbba7ba">
+                    <propertyInstance
+                      Id="7ebfa384-6c6f-4c61-baf4-186e537dcb49"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e6b4772-e703-4fb2-8dc8-e28c29ae4333">
+                    <propertyInstance
+                      Id="7c1eb44b-86c8-48c1-a991-313928a9a924"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48270f77-1bbf-4f4e-bd2d-0c5efd059a1b">
+                    <propertyInstance
+                      Id="dae48d39-976b-4061-80fd-62e0e3629436"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="392aa1a8-f41d-4ed9-8fcf-3e4a715150f3"
+                  name="parts"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="70dac4ce-55a7-44a6-af3a-ef1e8d4ac132"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FFactoryMethod%2Fbin%2FDebug%2FFactoryMethod.exe&quot; Namespace%3DFactoryMethod.Computers Type%3DStandardComputer Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Dparts"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="9b512478-9a75-4bc3-a49f-ba99bb2fa242"
+                      LastKnownName="IDictionary&lt;String‎, String‎&gt;"
+                      LastKnownLocation="Package5_1514.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="49d6c5db-db4c-40e0-9168-6761da917d2b"
+            name="GetInformation"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0326f18f-06c0-40c5-8a99-1b073c3209d1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FFactoryMethod%2Fbin%2FDebug%2FFactoryMethod.exe&quot; Namespace%3DFactoryMethod.Computers Type%3DStandardComputer Member%3DGetInformation"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cb2c61bc-f129-4651-986f-fe5f2ba4b48c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4fe51f4a-0db4-410e-9147-2fa1dd32abff">
+                    <propertyInstance
+                      Id="dd816978-9c4b-445c-bc0a-ee3287b6d5b5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52453454-a929-4a92-a0a0-1c97221e267c">
+                    <propertyInstance
+                      Id="e03302a5-84da-4832-8999-64562e6edcfc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97a145ff-d32a-4312-8fe8-fb666ed24508">
+                    <propertyInstance
+                      Id="2e9cc06d-98dd-4b49-8e19-dc5fe6c4077a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9dcc836b-ccc1-4f56-883e-1a8e22b381b0">
+                    <propertyInstance
+                      Id="7d7c91c2-4959-435a-b577-dde46726084d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3e2df63-f1e7-412d-a950-840e6c096286">
+                    <propertyInstance
+                      Id="e18facde-2cc6-4a75-b09d-91321095a745"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4b59b47-fb0b-4274-be86-e541b3642194">
+                    <propertyInstance
+                      Id="53f7e13a-161b-491a-a491-7ac65c03684c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2d6c605f-62a8-497d-888d-16925d442c12"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UmlDiagrams.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7d1d092d-fc25-4e9e-85d5-be7c80f8d5a9"
+        name="Laptop"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f438e589-dc40-40c0-8613-5c110c842c3d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FFactoryMethod%2Fbin%2FDebug%2FFactoryMethod.exe&quot; Namespace%3DFactoryMethod.Computers Type%3DLaptop"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="036e61b8-dcc6-4c56-bc5d-36367dbef5b6"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6327c815-8cb3-41d2-b279-0bd118627f4d">
+                <propertyInstance
+                  Id="fdb8ff17-7e2e-4b9c-b3f3-b547d9ad3373"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1398205b-82a6-4975-b262-5cc7712f46d0">
+                <propertyInstance
+                  Id="23ebd723-615e-4927-b10c-c0700cc84766"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8b1fab6c-a073-4877-a9f0-fe2771df3769">
+                <propertyInstance
+                  Id="ee432e98-5697-4831-ae01-0e7eecb3a826"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="14c1bd14-dcee-48b9-a687-a1a863b26200">
+                <propertyInstance
+                  Id="f1287505-d559-4714-8710-0ff480ddec51"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="370813ae-b13d-42b9-94be-6fab6c5931b7">
+                <propertyInstance
+                  Id="d454eb96-30f7-41b3-861a-9a17ea724dc9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="d2c9b1e4-41f0-4bce-b0f2-3bc9bf217c80"
+            isSubstitutable="false">
+            <classMoniker
+              Id="5e2e44a0-b591-49be-9a8e-30c60652089c"
+              LastKnownName="Computer"
+              LastKnownLocation="Package2_1514.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="71fc5aa6-7386-493a-9310-654913c79915"
+            name="Laptop"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="489c7639-bbc2-4800-b425-87c9e9a4b100"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FFactoryMethod%2Fbin%2FDebug%2FFactoryMethod.exe&quot; Namespace%3DFactoryMethod.Computers Type%3DLaptop Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="14d26ce9-626f-4631-80d8-f1c98645872a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c73c92e-b086-4da9-a4fc-93455fcb9109">
+                    <propertyInstance
+                      Id="ea5bb104-9960-4652-a063-ffbabe7594c0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2bb6726-b58d-40f1-b3f6-9aeea8bbd575">
+                    <propertyInstance
+                      Id="63a22efe-cb65-4bb2-ac12-a83dd141191a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45c9624e-5bc3-444f-91f3-173094dbb7ca">
+                    <propertyInstance
+                      Id="e5d0a18a-d5c9-4ba7-b5fc-0ea8c5653a6a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4b603ba-5c45-4fee-8009-1aa9372f9910">
+                    <propertyInstance
+                      Id="965f240c-3fa8-45cf-8de7-ed72b25cfdad"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c06d5e3-77c5-4499-bb6d-586e975a0cb3">
+                    <propertyInstance
+                      Id="f07ad1a5-01a4-432c-b42e-bcbbd628de86"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03ca718a-d010-4a31-88d2-b6aa68108b22">
+                    <propertyInstance
+                      Id="32a90ea6-5677-4128-9cc5-336d101a8dd0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c26bc3c1-6cb7-4478-ac05-1aaee5b2d707"
+                  name="parts"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9195934b-a079-4f74-af6f-5efc783afda0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FFactoryMethod%2Fbin%2FDebug%2FFactoryMethod.exe&quot; Namespace%3DFactoryMethod.Computers Type%3DLaptop Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Dparts"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="9b512478-9a75-4bc3-a49f-ba99bb2fa242"
+                      LastKnownName="IDictionary&lt;String‎, String‎&gt;"
+                      LastKnownLocation="Package5_1514.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="14035254-f236-416a-bf83-8f5f578eaf77"
+            name="GetInformation"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="568a9a72-3ad7-42ab-b361-329e7269a827"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FFactoryMethod%2Fbin%2FDebug%2FFactoryMethod.exe&quot; Namespace%3DFactoryMethod.Computers Type%3DLaptop Member%3DGetInformation"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f9a776e8-c65a-402f-b978-3909cb8fb19a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e9e8b3d-2521-4f13-99a9-ca8300683448">
+                    <propertyInstance
+                      Id="f2db863c-ee4f-416f-9895-6c2735c6ab67"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6a02050-cc78-4574-b156-f918413c9e67">
+                    <propertyInstance
+                      Id="acca4b28-6bad-407f-a82d-62394c431618"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="188df2c8-c526-4fde-8b78-24d9a4a14b0c">
+                    <propertyInstance
+                      Id="ad9f18c8-1ae8-4bc1-ad74-f5984ba24130"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d41cc1f-52e3-4d53-9184-1fc84af5d14f">
+                    <propertyInstance
+                      Id="f5f27885-802b-4987-a4e9-2188a81b3fd2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="afe6c4d3-f859-450d-82c8-5092a4893648">
+                    <propertyInstance
+                      Id="706f3a16-35a3-49b0-9347-e05a8b799b2e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17db75d2-ee56-4267-a9a6-2f76c0ea933e">
+                    <propertyInstance
+                      Id="1fdeb1ae-2c5f-4901-b14a-7837f1efe96e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8b40fb9b-cc12-4145-af40-d21a940c54a9"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UmlDiagrams.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

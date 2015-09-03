@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="472f284c-6d62-43c8-a44b-90509148d88e"
+  name="AbstractFactory"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="0d61ffac-0948-4cd5-978e-14ad997eb15b"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DAbstractFactory"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="19d4840d-2e31-4848-8e87-33c3004b5976"
+        LastKnownName="Products"
+        LastKnownLocation="Package1_1521.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="6806b294-8a09-4ca7-b31b-a657ae74e8ea"
+        LastKnownName="Factories"
+        LastKnownLocation="Package2_1521.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

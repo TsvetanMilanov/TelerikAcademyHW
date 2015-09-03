@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-08-30T15:21:37" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory' -  (Package)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Factories' -  (Package)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Medium" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Factories::Factory' -  (Class)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Factories::Factory::CreateMobilePhone' -  (Operation)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Factories::Factory::CreateSpeakers' -  (Operation)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Factories::Factory::CreateTelevisionSet' -  (Operation)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Factories::Factory::Factory' -  (Operation)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Medium" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Factories::LG' -  (Class)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Factories::LG::CreateMobilePhone' -  (Operation)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Factories::LG::CreateSpeakers' -  (Operation)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Factories::LG::CreateTelevisionSet' -  (Operation)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Factories::LG::LG' -  (Operation)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Medium" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Factories::Sony' -  (Class)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Factories::Sony::CreateMobilePhone' -  (Operation)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Factories::Sony::CreateSpeakers' -  (Operation)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Factories::Sony::CreateTelevisionSet' -  (Operation)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Factories::Sony::Sony' -  (Operation)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Products' -  (Package)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Medium" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Products::MobilePhone' -  (Class)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Products::MobilePhone::GetInformation' -  (Operation)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Products::MobilePhone::MobilePhone' -  (Operation)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Products::MobilePhone::MobilePhone::quality' -  (Parameter)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Products::MobilePhone::Quality' -  (Property)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Medium" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Products::Speakers' -  (Class)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Products::Speakers::GetInformation' -  (Operation)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Products::Speakers::IsHiFi' -  (Property)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Products::Speakers::Speakers' -  (Operation)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Products::Speakers::Speakers::isHifi' -  (Parameter)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Medium" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Products::TelevisionSet' -  (Class)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Products::TelevisionSet::GetInformation' -  (Operation)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Products::TelevisionSet::Size' -  (Property)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Products::TelevisionSet::TelevisionSet' -  (Operation)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'UmlDiagrams::AbstractFactory::Products::TelevisionSet::TelevisionSet::size' -  (Parameter)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: UmlDiagrams::AbstractFactory::Factories::Sony to UmlDiagrams::AbstractFactory::Factories::Factory (Generalization)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: UmlDiagrams::AbstractFactory::Factories::LG to UmlDiagrams::AbstractFactory::Factories::Factory (Generalization)" />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="High" Text="(6) type(s) fully reverse engineered." />
+  <Message Timestamp="2015-08-30T15:21:38" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

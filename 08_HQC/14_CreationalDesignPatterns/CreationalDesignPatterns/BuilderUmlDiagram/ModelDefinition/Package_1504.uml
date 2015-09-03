@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="ce1ba4d1-c5d2-4a37-9f3d-bdda43923164"
+  name="Directors"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="f9a05dd8-2e66-4ed8-91b6-ece5cac0316a"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBuilder.Directors"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="d1abe122-1714-4300-b437-4f5be3e61555"
+        name="Director"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="eb94f530-3af2-4ce1-8d64-22a023202bce"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FBuilder%2Fbin%2FDebug%2FBuilder.exe&quot; Namespace%3DBuilder.Directors Type%3DDirector"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="56d974c1-02aa-49d1-a36d-8da3b98596a5"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="76a06a99-b86b-4389-92d6-5887ed6c6462">
+                <propertyInstance
+                  Id="3edb97ee-0788-42d6-b315-2bec9d0895ad"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f7e53b1a-0e38-465d-9d94-6ffebd12a559">
+                <propertyInstance
+                  Id="1fe982bd-acbe-48f6-bee6-b82a48042bd2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b7ce52d2-2e94-41ef-98fc-2ded7766de01">
+                <propertyInstance
+                  Id="d8f0bb36-87e6-4f5a-a937-3c1d3437bf32"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3a247aed-8e82-47e8-8e3f-b220f36be047">
+                <propertyInstance
+                  Id="5e38f55e-ce36-41fb-bbf2-f1587c5a94cb"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="65a7d868-3f49-4e86-8058-083bfa430fc6">
+                <propertyInstance
+                  Id="4944aa5d-c42d-4af5-8cb8-96f1bbddb6b5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b99cced8-ee75-4b3c-b14c-90ddb9b14b90"
+            name="Director"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2cfe068f-ca5e-4367-a175-7842b5d605d0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FBuilder%2Fbin%2FDebug%2FBuilder.exe&quot; Namespace%3DBuilder.Directors Type%3DDirector Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6b7e9380-c906-4802-8df1-11e322580456"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de05ee7f-fe0f-4e22-879b-aff2621abc60">
+                    <propertyInstance
+                      Id="a5499e8b-7d79-4954-9878-c19906f7e4a1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="463b2264-dac1-49c5-8988-300f0bfcffe4">
+                    <propertyInstance
+                      Id="7810563b-b8d4-448f-875f-24f8dfdb5b53"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9dc02d7-d8fe-4783-9707-e844e4b012c0">
+                    <propertyInstance
+                      Id="4fd744b8-284e-4bcb-98f2-a31a99b30b2f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5dd2f9b1-da48-4cf3-9911-eba11d32152c">
+                    <propertyInstance
+                      Id="f96a9ea8-3d19-423d-ae6e-f1b0f8bec39e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="caf35f43-1387-45c6-af14-3ec225142977">
+                    <propertyInstance
+                      Id="13fef82c-1df4-4005-93c8-98fbbe450773"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e383316-839e-4eec-ac3b-3cad8b9b13cf">
+                    <propertyInstance
+                      Id="a52afcd2-0d72-40bf-bf9c-319c203cc555"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="f5cd7d7f-b4c7-4289-bea5-1045d0bad407"
+            name="CreateApplication"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="91ddfbd3-b1e7-4e0f-bd98-3f09dc5a6403"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FBuilder%2Fbin%2FDebug%2FBuilder.exe&quot; Namespace%3DBuilder.Directors Type%3DDirector Member%3D(Name%3DCreateApplication OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FBuilder%2Fbin%2FDebug%2FBuilder.exe&quot; Namespace%3DBuilder.Builders Type%3DProgrammer)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3857357d-ccd1-4a11-9706-5f68c9918d72"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15eec981-ffd6-40f7-a6a9-0ac8a7178da2">
+                    <propertyInstance
+                      Id="05473cd8-4ae5-47b5-ae80-9aa90d1db2ae"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95ab5f2f-2a99-41bd-8e5b-d802979f03fb">
+                    <propertyInstance
+                      Id="a919d752-370e-4f84-b5cc-24770e8806e1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f1c95b7-a31e-4e1e-833e-91024b06ce79">
+                    <propertyInstance
+                      Id="00b5c2cd-0af1-4947-8db4-323f2e564ab8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6868c97b-0227-41aa-893b-f644ae9f7b83">
+                    <propertyInstance
+                      Id="cc9b1efc-068d-4a3d-89c0-e78a11e47a2a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7bf03aa5-c3a4-46ad-957d-98917ba3d85e">
+                    <propertyInstance
+                      Id="8f94a6bd-5a38-4abb-a026-b2b8be16b7dc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c549903-064f-4189-a05a-ea24f117fdde">
+                    <propertyInstance
+                      Id="b0821136-a767-4d92-9889-5824ec35d9b3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e342c84f-85be-4c31-9f65-c487d7c9dae7"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="16970208-f6e3-425a-a1f7-6e80ee900cd6"
+                      LastKnownName="Application"
+                      LastKnownLocation="Package_1503.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="939e5bd9-8928-4e44-aa62-957c4f0f4d7e"
+                  name="programmer"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="472bec50-dda2-4959-b4cc-16446dc538a5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FBuilder%2Fbin%2FDebug%2FBuilder.exe&quot; Namespace%3DBuilder.Directors Type%3DDirector Member%3D(Name%3DCreateApplication OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FBuilder%2Fbin%2FDebug%2FBuilder.exe&quot; Namespace%3DBuilder.Builders Type%3DProgrammer)]) ParameterIdentifier%3Dprogrammer"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="25344ef4-62f0-401a-9e4a-4e1affa5e055"
+                      LastKnownName="Programmer"
+                      LastKnownLocation="Package1_1504.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6a27a640-09d0-4841-b53b-b9c4c62047b3"
+        name="TeamLeader"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6b486c6a-7e87-418c-91a3-54c7750868cf"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FBuilder%2Fbin%2FDebug%2FBuilder.exe&quot; Namespace%3DBuilder.Directors Type%3DTeamLeader"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3af3d1bd-2367-4cf9-9f5b-940117373877"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8e096460-e97b-4a0b-8e35-e2660ef96c90">
+                <propertyInstance
+                  Id="cbf83dad-dbc2-4bc0-ad0f-ae2685377ea3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="43a716ac-9003-4797-b229-7f3688b18d62">
+                <propertyInstance
+                  Id="305e30a0-cf12-46eb-9251-fbdf3c89d296"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a33f7f2e-1c99-4726-864d-30a8abba2289">
+                <propertyInstance
+                  Id="fac7b7d5-ad53-4c81-a273-690d2569fef0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5e4ad912-ef4d-4832-a7ac-53bfb81c68b7">
+                <propertyInstance
+                  Id="c75c3a74-a9ae-49cd-b4ab-ae314f72e630"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ef18e249-e010-4ab0-b676-8d1e5bfd3793">
+                <propertyInstance
+                  Id="6b67c20d-e91a-4755-9409-4c4bc429525c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="e1eb8f42-2b1e-48d8-a484-931be7d3b79b"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d1abe122-1714-4300-b437-4f5be3e61555"
+              LastKnownName="Director"
+              LastKnownLocation="Package_1504.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="f9bad315-b421-447c-8748-bce03d0414bc"
+            name="TeamLeader"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="060852a1-f840-4da4-8cc9-668e930ec640"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FBuilder%2Fbin%2FDebug%2FBuilder.exe&quot; Namespace%3DBuilder.Directors Type%3DTeamLeader Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7d6bcfc3-488d-4c12-8b49-3d4082b78b5e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1fbe8eb-a080-44ba-9a6a-1be341f2cf21">
+                    <propertyInstance
+                      Id="0873200f-fdf2-4368-a0ee-d9b581ead566"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="522eb207-05cf-4cd7-ab08-f74f15b5c018">
+                    <propertyInstance
+                      Id="c982ec50-5c45-4b5d-a598-76083ffd4ed0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91e440cc-9b0a-4f27-9b9a-37853cb15ee1">
+                    <propertyInstance
+                      Id="674742ee-9d37-41c6-9d9b-e3babecc8b62"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30f71d1a-dc95-4755-9c6a-338330fad7c0">
+                    <propertyInstance
+                      Id="4be06763-9f84-497b-903e-0712c893823b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b059e36c-e53a-44e1-814a-60a7186e5d61">
+                    <propertyInstance
+                      Id="4a7f7a6c-0bc2-4a41-9948-e7d3e04a2d62"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d01c36f-0d50-4c70-a6bb-2d8c183d8d10">
+                    <propertyInstance
+                      Id="92cb783f-b25c-4bd5-a36f-cda5aef2da42"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="f51a1883-54c2-4359-af29-6afaa42b7497"
+            name="CreateApplication"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f98879f7-ad2a-4d74-b602-a250546b220b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FBuilder%2Fbin%2FDebug%2FBuilder.exe&quot; Namespace%3DBuilder.Directors Type%3DTeamLeader Member%3D(Name%3DCreateApplication OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FBuilder%2Fbin%2FDebug%2FBuilder.exe&quot; Namespace%3DBuilder.Builders Type%3DProgrammer)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5c29b67b-161c-4445-b85d-e75ddce540ee"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c225a14-b914-4c53-bf08-1c1695c4efec">
+                    <propertyInstance
+                      Id="cf6efc2f-066c-497a-95f6-79be81ea4815"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="458ac0eb-f8c4-4e73-b428-cd36b932908b">
+                    <propertyInstance
+                      Id="a0b686ae-5b06-4273-9066-5e47b0991be1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6bcfba18-5be8-48a6-8b05-561ec0cb8915">
+                    <propertyInstance
+                      Id="30a69d59-1556-4df9-bb04-edb2827993f9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed148741-c0cb-4944-822c-8d672e2fbe7f">
+                    <propertyInstance
+                      Id="adc10b23-f4b4-4b98-bb91-eb2fe6205e54"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07a69337-e903-4d1f-92cb-61110111de12">
+                    <propertyInstance
+                      Id="0fb0688a-858e-4c5c-9d33-1dadd082ce93"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76cfbd01-e87c-4b87-a270-8b91c1bbe092">
+                    <propertyInstance
+                      Id="4c7e7b64-3e2b-4ba6-b536-a322f9d34ed6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9bc5042b-dfa2-454b-8d06-afe0eec51f5f"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="16970208-f6e3-425a-a1f7-6e80ee900cd6"
+                      LastKnownName="Application"
+                      LastKnownLocation="Package_1503.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8b0a19a8-bb0e-4372-ae41-ee1e5d05fcfb"
+                  name="programmer"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="daacb417-c620-4325-9732-5cd5ef704dbb"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FBuilder%2Fbin%2FDebug%2FBuilder.exe&quot; Namespace%3DBuilder.Directors Type%3DTeamLeader Member%3D(Name%3DCreateApplication OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FE:%2FCeco%2FTelerik%2FHomeWork%2F08_HQC%2F14_CreationalDesignPatterns%2FNew folder%2FCreationalDesignPatterns%2FBuilder%2Fbin%2FDebug%2FBuilder.exe&quot; Namespace%3DBuilder.Builders Type%3DProgrammer)]) ParameterIdentifier%3Dprogrammer"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="25344ef4-62f0-401a-9e4a-4e1affa5e055"
+                      LastKnownName="Programmer"
+                      LastKnownLocation="Package1_1504.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
