@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "MediatorPattern\MediatorPattern.csproj", "{847600C5-0E8D-42F8-A34C-49F014931225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{BFE92547-A452-4D97-A4D1-2F9C3B5E9583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "VisitorPattern\VisitorPattern.csproj", "{0A2910B1-B129-4CE6-B255-946A1C1C70C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPattern", "MementoPattern\MementoPattern.csproj", "{AFEF7221-5232-4F22-AF4A-56E334EDFD11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{847600C5-0E8D-42F8-A34C-49F014931225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847600C5-0E8D-42F8-A34C-49F014931225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847600C5-0E8D-42F8-A34C-49F014931225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847600C5-0E8D-42F8-A34C-49F014931225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE92547-A452-4D97-A4D1-2F9C3B5E9583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE92547-A452-4D97-A4D1-2F9C3B5E9583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE92547-A452-4D97-A4D1-2F9C3B5E9583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE92547-A452-4D97-A4D1-2F9C3B5E9583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A2910B1-B129-4CE6-B255-946A1C1C70C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2910B1-B129-4CE6-B255-946A1C1C70C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2910B1-B129-4CE6-B255-946A1C1C70C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2910B1-B129-4CE6-B255-946A1C1C70C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFEF7221-5232-4F22-AF4A-56E334EDFD11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFEF7221-5232-4F22-AF4A-56E334EDFD11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFEF7221-5232-4F22-AF4A-56E334EDFD11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFEF7221-5232-4F22-AF4A-56E334EDFD11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
