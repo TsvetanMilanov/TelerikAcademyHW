@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='StudentsStylesheet.xslt'?>
+<students
+  xmlns:student="urn:student"
+  xmlns:exam="urn:exam"
+  xmlns:enrollment="urn:enrollment"
+  xmlns:endorsement="urn:endorsement">
+  <student:student>
+    <student:name>
+      Pesho
+    </student:name>
+    <student:sex>
+      Male
+    </student:sex>
+    <student:birth-date>
+      1990-10-10
+    </student:birth-date>
+    <student:phone>
+      +359 888 888 888
+    </student:phone>
+    <student:e-mail>
+      pesho@abv.bg
+    </student:e-mail>
+    <student:course>
+      1
+    </student:course>
+    <student:specialty>
+      System Programming
+    </student:specialty>
+    <student:faculty-number>
+      1111111111
+    </student:faculty-number>
+    <student:taken-exams>
+      <exam:exam>
+        <exam:name>
+          JavaScript Fundamentals
+        </exam:name>
+        <exam:tutor>
+          Doncho
+        </exam:tutor>
+        <exam:score>
+          200
+        </exam:score>
+      </exam:exam>
+      <exam:exam>
+        <exam:name>
+          JavaScript UI and DOM
+        </exam:name>
+        <exam:tutor>
+          Doncho
+        </exam:tutor>
+        <exam:score>
+          200
+        </exam:score>
+      </exam:exam>
+      <exam:exam>
+        <exam:name>
+          JavaScript Applications
+        </exam:name>
+        <exam:tutor>
+          Doncho
+        </exam:tutor>
+        <exam:score>
+          80
+        </exam:score>
+      </exam:exam>
+    </student:taken-exams>
+    <enrollment:enrollment>
+      <enrollment:date>
+        2014-11-25
+      </enrollment:date>
+      <enrollment:score>
+        80
+      </enrollment:score>
+    </enrollment:enrollment>
+    <student:teachers-endorsements>
+      <endorsement:endorsement>
+        Endorsement #1
+      </endorsement:endorsement>
+      <endorsement:endorsement>
+        Endorsement #2
+      </endorsement:endorsement>
+      <endorsement:endorsement>
+        Endorsement #3
+      </endorsement:endorsement>
+    </student:teachers-endorsements>
+  </student:student>
+  <student:student>
+    <student:name>
+      Mariika
+    </student:name>
+    <student:sex>
+      Female
+    </student:sex>
+    <student:birth-date>
+      1990-09-09
+    </student:birth-date>
+    <student:phone>
+      +359 888 999 999
+    </student:phone>
+    <student:e-mail>
+      mariika@abv.bg
+    </student:e-mail>
+    <student:course>
+      1
+    </student:course>
+    <student:specialty>
+      System Programming
+    </student:specialty>
+    <student:faculty-number>
+      3333333333
+    </student:faculty-number>
+    <student:taken-exams>
+      <exam:exam>
+        <exam:name>
+          JavaScript Fundamentals
+        </exam:name>
+        <exam:tutor>
+          Doncho
+        </exam:tutor>
+        <exam:score>
+          250
+        </exam:score>
+      </exam:exam>
+      <exam:exam>
+        <exam:name>
+          JavaScript UI and DOM
+        </exam:name>
+        <exam:tutor>
+          Doncho
+        </exam:tutor>
+        <exam:score>
+          250
+        </exam:score>
+      </exam:exam>
+      <exam:exam>
+        <exam:name>
+          JavaScript Applications
+        </exam:name>
+        <exam:tutor>
+          Doncho
+        </exam:tutor>
+        <exam:score>
+          90
+        </exam:score>
+      </exam:exam>
+    </student:taken-exams>
+    <enrollment:enrollment>
+      <enrollment:date>
+        2014-11-25
+      </enrollment:date>
+      <enrollment:score>
+        90
+      </enrollment:score>
+    </enrollment:enrollment>
+    <student:teachers-endorsements>
+      <endorsement:endorsement>
+        Endorsement #1
+      </endorsement:endorsement>
+      <endorsement:endorsement>
+        Endorsement #2
+      </endorsement:endorsement>
+      <endorsement:endorsement>
+        Endorsement #3
+      </endorsement:endorsement>
+    </student:teachers-endorsements>
+  </student:student>
+  <student:student>
+    <student:name>
+      Gosho
+    </student:name>
+    <student:sex>
+      Male
+    </student:sex>
+    <student:birth-date>
+      1989-01-01
+    </student:birth-date>
+    <student:phone>
+      +359 888 777 777
+    </student:phone>
+    <student:e-mail>
+      gosho@abv.bg
+    </student:e-mail>
+    <student:course>
+      2
+    </student:course>
+    <student:specialty>
+      System Programming
+    </student:specialty>
+    <student:faculty-number>
+      2222222222
+    </student:faculty-number>
+    <student:taken-exams>
+      <exam:exam>
+        <exam:name>
+          JavaScript Fundamentals
+        </exam:name>
+        <exam:tutor>
+          Doncho
+        </exam:tutor>
+        <exam:score>
+          200
+        </exam:score>
+      </exam:exam>
+      <exam:exam>
+        <exam:name>
+          JavaScript UI and DOM
+        </exam:name>
+        <exam:tutor>
+          Doncho
+        </exam:tutor>
+        <exam:score>
+          150
+        </exam:score>
+      </exam:exam>
+      <exam:exam>
+        <exam:name>
+          JavaScript Applications
+        </exam:name>
+        <exam:tutor>
+          Doncho
+        </exam:tutor>
+        <exam:score>
+          100
+        </exam:score>
+      </exam:exam>
+    </student:taken-exams>
+    <enrollment:enrollment>
+      <enrollment:date>
+        2014-11-25
+      </enrollment:date>
+      <enrollment:score>
+        50
+      </enrollment:score>
+    </enrollment:enrollment>
+    <student:teachers-endorsements>
+      <endorsement:endorsement>
+        Endorsement #1
+      </endorsement:endorsement>
+      <endorsement:endorsement>
+        Endorsement #2
+      </endorsement:endorsement>
+      <endorsement:endorsement>
+        Endorsement #3
+      </endorsement:endorsement>
+    </student:teachers-endorsements>
+  </student:student>
+</students>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="urn:student" xmlns:exam="urn:exam" xmlns:enrollment="urn:enrollment" xmlns:endorsement="urn:endorsement" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:student" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="urn:exam"/>
+  <xs:import namespace="urn:enrollment"/>
+  <xs:import namespace="urn:endorsement"/>
+  <xs:element name="student">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string" />
+        <xs:element name="sex" type="xs:string" />
+        <xs:element name="birth-date" type="xs:date" />
+        <xs:element name="phone" type="xs:string" />
+        <xs:element name="e-mail" type="xs:string" />
+        <xs:element name="course" type="xs:unsignedByte" />
+        <xs:element name="specialty" type="xs:string" />
+        <xs:element name="faculty-number" type="xs:unsignedInt" />
+        <xs:element name="taken-exams">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" ref="exam:exam" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="enrollment:enrollment" />
+        <xs:element name="teachers-endorsements">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" ref="endorsement:endorsement" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

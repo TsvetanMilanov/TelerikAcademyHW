@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{06B16FBB-DB21-4A70-B2C8-0F024AF7726C}"
+	ProjectSection(SolutionItems) = preProject
+		endorsement.xsd = endorsement.xsd
+		enrollment.xsd = enrollment.xsd
+		exam.xsd = exam.xsd
+		index.xhtml = index.xhtml
+		student.xsd = student.xsd
+		students.xml = students.xml
+		students.xsd = students.xsd
+		StudentsStylesheet.xslt = StudentsStylesheet.xslt
+		XML-Information.txt = XML-Information.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
