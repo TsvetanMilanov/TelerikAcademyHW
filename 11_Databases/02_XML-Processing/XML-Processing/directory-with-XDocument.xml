@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<directory>
+  <dir path="../../../">
+    <dir path="../../../.vs">
+      <dir path="../../../.vs\XML-Processing">
+        <dir path="../../../.vs\XML-Processing\v14">
+          <file>\.suo</file>
+        </dir>
+      </dir>
+    </dir>
+    <dir path="../../../AlbumInformationExtract">
+      <dir path="../../../AlbumInformationExtract\bin">
+        <dir path="../../../AlbumInformationExtract\bin\Debug">
+          <file>\AlbumInformationExtract.exe</file>
+          <file>\AlbumInformationExtract.exe.config</file>
+          <file>\AlbumInformationExtract.pdb</file>
+          <file>\AlbumInformationExtract.vshost.exe</file>
+          <file>\AlbumInformationExtract.vshost.exe.config</file>
+        </dir>
+        <dir path="../../../AlbumInformationExtract\bin\Release" />
+      </dir>
+      <dir path="../../../AlbumInformationExtract\obj">
+        <dir path="../../../AlbumInformationExtract\obj\Debug">
+          <dir path="../../../AlbumInformationExtract\obj\Debug\TempPE" />
+          <file>\08.AlbumInformationExtract.csproj.FileListAbsolute.txt</file>
+          <file>\08.AlbumInformationExtract.csprojResolveAssemblyReference.cache</file>
+          <file>\AlbumInformationExtract.csproj.FileListAbsolute.txt</file>
+          <file>\AlbumInformationExtract.exe</file>
+          <file>\AlbumInformationExtract.pdb</file>
+          <file>\DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir path="../../../AlbumInformationExtract\Properties">
+        <file>\AssemblyInfo.cs</file>
+      </dir>
+      <file>\08.AlbumInformationExtract.csproj</file>
+      <file>\AlbumInformationExtractor.cs</file>
+      <file>\App.config</file>
+      <file>\EntryPoint.cs</file>
+      <file>\Settings.StyleCop</file>
+      <file>\StyleCop.Cache</file>
+    </dir>
+    <dir path="../../../Catalog.Albums.Remover">
+      <dir path="../../../Catalog.Albums.Remover\bin">
+        <dir path="../../../Catalog.Albums.Remover\bin\Debug">
+          <file>\Catalog.Albums.Remover.exe</file>
+          <file>\Catalog.Albums.Remover.exe.config</file>
+          <file>\Catalog.Albums.Remover.pdb</file>
+          <file>\Catalog.Albums.Remover.vshost.exe</file>
+          <file>\Catalog.Albums.Remover.vshost.exe.config</file>
+        </dir>
+        <dir path="../../../Catalog.Albums.Remover\bin\Release" />
+      </dir>
+      <dir path="../../../Catalog.Albums.Remover\obj">
+        <dir path="../../../Catalog.Albums.Remover\obj\Debug">
+          <dir path="../../../Catalog.Albums.Remover\obj\Debug\TempPE" />
+          <file>\04.Catalog.Albums.Remov.csproj.FileListAbsolute.txt</file>
+          <file>\04.Catalog.Albums.Remove.csproj.FileListAbsolute.txt</file>
+          <file>\04.Catalog.Albums.Remover.csproj.FileListAbsolute.txt</file>
+          <file>\04.Catalog.Albums.Remover.csprojResolveAssemblyReference.cache</file>
+          <file>\Catalog.Albums.Remover.csproj.FileListAbsolute.txt</file>
+          <file>\Catalog.Albums.Remover.exe</file>
+          <file>\Catalog.Albums.Remover.pdb</file>
+          <file>\DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir path="../../../Catalog.Albums.Remover\Properties">
+        <file>\AssemblyInfo.cs</file>
+      </dir>
+      <file>\04.Catalog.Albums.Remove.csproj</file>
+      <file>\App.config</file>
+      <file>\EntryPoint.cs</file>
+      <file>\Settings.StyleCop</file>
+      <file>\StyleCop.Cache</file>
+      <file>\XmlCatalogAlbumsRemover.cs</file>
+    </dir>
+    <dir path="../../../Catalog.Artists.Extractor">
+      <dir path="../../../Catalog.Artists.Extractor\bin">
+        <dir path="../../../Catalog.Artists.Extractor\bin\Debug">
+          <file>\Catalog.Artists.Extractor.exe</file>
+          <file>\Catalog.Artists.Extractor.exe.config</file>
+          <file>\Catalog.Artists.Extractor.pdb</file>
+          <file>\Catalog.Artists.Extractor.vshost.exe</file>
+          <file>\Catalog.Artists.Extractor.vshost.exe.config</file>
+        </dir>
+        <dir path="../../../Catalog.Artists.Extractor\bin\Release" />
+      </dir>
+      <dir path="../../../Catalog.Artists.Extractor\obj">
+        <dir path="../../../Catalog.Artists.Extractor\obj\Debug">
+          <dir path="../../../Catalog.Artists.Extractor\obj\Debug\TempPE" />
+          <file>\02.Catalog.Artists.Extract.csproj.FileListAbsolute.txt</file>
+          <file>\02.Catalog.Artists.Extractor.csproj.FileListAbsolute.txt</file>
+          <file>\Catalog.Artists.Extractor.csproj.FileListAbsolute.txt</file>
+          <file>\Catalog.Artists.Extractor.csprojResolveAssemblyReference.cache</file>
+          <file>\Catalog.Artists.Extractor.exe</file>
+          <file>\Catalog.Artists.Extractor.pdb</file>
+          <file>\DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir path="../../../Catalog.Artists.Extractor\Properties">
+        <file>\AssemblyInfo.cs</file>
+      </dir>
+      <file>\02.Catalog.Artists.Extract.csproj</file>
+      <file>\App.config</file>
+      <file>\EntryPoint.cs</file>
+      <file>\Settings.StyleCop</file>
+      <file>\StyleCop.Cache</file>
+      <file>\XMLCatalogArtistsExtractor.cs</file>
+    </dir>
+    <dir path="../../../Catalog.Artists.Extractor.XPath">
+      <dir path="../../../Catalog.Artists.Extractor.XPath\bin">
+        <dir path="../../../Catalog.Artists.Extractor.XPath\bin\Debug">
+          <file>\Catalog.Artists.Extractor.XPath.exe</file>
+          <file>\Catalog.Artists.Extractor.XPath.exe.config</file>
+          <file>\Catalog.Artists.Extractor.XPath.pdb</file>
+          <file>\Catalog.Artists.Extractor.XPath.vshost.exe</file>
+          <file>\Catalog.Artists.Extractor.XPath.vshost.exe.config</file>
+        </dir>
+        <dir path="../../../Catalog.Artists.Extractor.XPath\bin\Release" />
+      </dir>
+      <dir path="../../../Catalog.Artists.Extractor.XPath\obj">
+        <dir path="../../../Catalog.Artists.Extractor.XPath\obj\Debug">
+          <dir path="../../../Catalog.Artists.Extractor.XPath\obj\Debug\TempPE" />
+          <file>\03.Catalog.Artists.Extract.XPath.csproj.FileListAbsolute.txt</file>
+          <file>\03.Catalog.Artists.Extractor.XPath.csproj.FileListAbsolute.txt</file>
+          <file>\03.Catalog.Artists.Extractor.XPath.csprojResolveAssemblyReference.cache</file>
+          <file>\Catalog.Artists.Extractor.XPath.csproj.FileListAbsolute.txt</file>
+          <file>\Catalog.Artists.Extractor.XPath.exe</file>
+          <file>\Catalog.Artists.Extractor.XPath.pdb</file>
+          <file>\DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir path="../../../Catalog.Artists.Extractor.XPath\Properties">
+        <file>\AssemblyInfo.cs</file>
+      </dir>
+      <file>\03.Catalog.Artists.Extract.XPath.csproj</file>
+      <file>\App.config</file>
+      <file>\EntryPoint.cs</file>
+      <file>\Settings.StyleCop</file>
+      <file>\StyleCop.Cache</file>
+      <file>\XmlCatalogArtistsExtractor.cs</file>
+    </dir>
+    <dir path="../../../Catalog.SongTitles.Extract">
+      <dir path="../../../Catalog.SongTitles.Extract\bin">
+        <dir path="../../../Catalog.SongTitles.Extract\bin\Debug">
+          <file>\Catalog.SongTitles.Extract.exe</file>
+          <file>\Catalog.SongTitles.Extract.exe.config</file>
+          <file>\Catalog.SongTitles.Extract.pdb</file>
+          <file>\Catalog.SongTitles.Extract.vshost.exe</file>
+          <file>\Catalog.SongTitles.Extract.vshost.exe.config</file>
+        </dir>
+        <dir path="../../../Catalog.SongTitles.Extract\bin\Release" />
+      </dir>
+      <dir path="../../../Catalog.SongTitles.Extract\obj">
+        <dir path="../../../Catalog.SongTitles.Extract\obj\Debug">
+          <dir path="../../../Catalog.SongTitles.Extract\obj\Debug\TempPE" />
+          <file>\06.Catalog.SongTitles.Extract.csproj.FileListAbsolute.txt</file>
+          <file>\06.Catalog.SongTitles.Extract.csprojResolveAssemblyReference.cache</file>
+          <file>\Catalog.SongTitles.Extract.csproj.FileListAbsolute.txt</file>
+          <file>\Catalog.SongTitles.Extract.exe</file>
+          <file>\Catalog.SongTitles.Extract.pdb</file>
+          <file>\DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir path="../../../Catalog.SongTitles.Extract\Properties">
+        <file>\AssemblyInfo.cs</file>
+      </dir>
+      <file>\06.Catalog.SongTitles.Extract.csproj</file>
+      <file>\App.config</file>
+      <file>\EntryPoint.cs</file>
+      <file>\Settings.StyleCop</file>
+      <file>\StyleCop.Cache</file>
+      <file>\XmlSongTitlesExtractor.cs</file>
+    </dir>
+    <dir path="../../../Catalog.SongTitles.Extractor">
+      <dir path="../../../Catalog.SongTitles.Extractor\bin">
+        <dir path="../../../Catalog.SongTitles.Extractor\bin\Debug">
+          <file>\Catalog.SongTitles.Extractor.exe</file>
+          <file>\Catalog.SongTitles.Extractor.exe.config</file>
+          <file>\Catalog.SongTitles.Extractor.pdb</file>
+          <file>\Catalog.SongTitles.Extractor.vshost.exe</file>
+          <file>\Catalog.SongTitles.Extractor.vshost.exe.config</file>
+        </dir>
+        <dir path="../../../Catalog.SongTitles.Extractor\bin\Release" />
+      </dir>
+      <dir path="../../../Catalog.SongTitles.Extractor\obj">
+        <dir path="../../../Catalog.SongTitles.Extractor\obj\Debug">
+          <dir path="../../../Catalog.SongTitles.Extractor\obj\Debug\TempPE" />
+          <file>\05.Catalog.SongTitles.Extract.csproj.FileListAbsolute.txt</file>
+          <file>\Catalog.SongTitles.Extractor.csproj.FileListAbsolute.txt</file>
+          <file>\Catalog.SongTitles.Extractor.exe</file>
+          <file>\Catalog.SongTitles.Extractor.pdb</file>
+          <file>\DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir path="../../../Catalog.SongTitles.Extractor\Properties">
+        <file>\AssemblyInfo.cs</file>
+      </dir>
+      <file>\05.Catalog.SongTitles.Extract.csproj</file>
+      <file>\App.config</file>
+      <file>\EntryPoint.cs</file>
+      <file>\Settings.StyleCop</file>
+      <file>\StyleCop.Cache</file>
+      <file>\XmlCatalogSongTitlesExtractor.cs</file>
+    </dir>
+    <dir path="../../../CreatePeopleXmlFromTextFile">
+      <dir path="../../../CreatePeopleXmlFromTextFile\bin">
+        <dir path="../../../CreatePeopleXmlFromTextFile\bin\Debug">
+          <file>\CreatePeopleXmlFromTextFile.exe</file>
+          <file>\CreatePeopleXmlFromTextFile.exe.config</file>
+          <file>\CreatePeopleXmlFromTextFile.pdb</file>
+          <file>\CreatePeopleXmlFromTextFile.vshost.exe</file>
+          <file>\CreatePeopleXmlFromTextFile.vshost.exe.config</file>
+        </dir>
+        <dir path="../../../CreatePeopleXmlFromTextFile\bin\Release" />
+      </dir>
+      <dir path="../../../CreatePeopleXmlFromTextFile\obj">
+        <dir path="../../../CreatePeopleXmlFromTextFile\obj\Debug">
+          <dir path="../../../CreatePeopleXmlFromTextFile\obj\Debug\TempPE" />
+          <file>\07.CreatePeopleXmlFromTextFile.csproj.FileListAbsolute.txt</file>
+          <file>\07.CreatePeopleXmlFromTextFile.csprojResolveAssemblyReference.cache</file>
+          <file>\CreatePeopleXmlFromTextFile.csproj.FileListAbsolute.txt</file>
+          <file>\CreatePeopleXmlFromTextFile.exe</file>
+          <file>\CreatePeopleXmlFromTextFile.pdb</file>
+          <file>\DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir path="../../../CreatePeopleXmlFromTextFile\Properties">
+        <file>\AssemblyInfo.cs</file>
+      </dir>
+      <file>\07.CreatePeopleXmlFromTextFile.csproj</file>
+      <file>\App.config</file>
+      <file>\EntryPoint.cs</file>
+      <file>\Settings.StyleCop</file>
+      <file>\StyleCop.Cache</file>
+      <file>\XmlDocumentCreator.cs</file>
+    </dir>
+    <dir path="../../../DirectoryTraverse">
+      <dir path="../../../DirectoryTraverse\bin">
+        <dir path="../../../DirectoryTraverse\bin\Debug">
+          <file>\DirectoryTraverse.exe</file>
+          <file>\DirectoryTraverse.exe.config</file>
+          <file>\DirectoryTraverse.pdb</file>
+          <file>\DirectoryTraverse.vshost.exe</file>
+          <file>\DirectoryTraverse.vshost.exe.config</file>
+        </dir>
+        <dir path="../../../DirectoryTraverse\bin\Release" />
+      </dir>
+      <dir path="../../../DirectoryTraverse\obj">
+        <dir path="../../../DirectoryTraverse\obj\Debug">
+          <dir path="../../../DirectoryTraverse\obj\Debug\TempPE" />
+          <file>\09.DirectoryTraverse.csproj.FileListAbsolute.txt</file>
+          <file>\DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>\DirectoryTraverse.csproj.FileListAbsolute.txt</file>
+          <file>\DirectoryTraverse.exe</file>
+          <file>\DirectoryTraverse.pdb</file>
+          <file>\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir path="../../../DirectoryTraverse\Properties">
+        <file>\AssemblyInfo.cs</file>
+      </dir>
+      <file>\09.DirectoryTraverse.csproj</file>
+      <file>\App.config</file>
+      <file>\DirectoryTraverser.cs</file>
+      <file>\EntryPoint.cs</file>
+      <file>\Settings.StyleCop</file>
+      <file>\StyleCop.Cache</file>
+    </dir>
+    <dir path="../../../DirectoryTraverse.XDocument">
+      <dir path="../../../DirectoryTraverse.XDocument\bin">
+        <dir path="../../../DirectoryTraverse.XDocument\bin\Debug">
+          <file>\DirectoryTraverse.XDocument.exe</file>
+          <file>\DirectoryTraverse.XDocument.exe.config</file>
+          <file>\DirectoryTraverse.XDocument.pdb</file>
+          <file>\DirectoryTraverse.XDocument.vshost.exe</file>
+          <file>\DirectoryTraverse.XDocument.vshost.exe.config</file>
+        </dir>
+        <dir path="../../../DirectoryTraverse.XDocument\bin\Release" />
+      </dir>
+      <dir path="../../../DirectoryTraverse.XDocument\obj">
+        <dir path="../../../DirectoryTraverse.XDocument\obj\Debug">
+          <dir path="../../../DirectoryTraverse.XDocument\obj\Debug\TempPE" />
+          <file>\10.DirectoryTraverse.csproj.FileListAbsolute.txt</file>
+          <file>\10.DirectoryTraverse.csprojResolveAssemblyReference.cache</file>
+          <file>\10.DirectoryTraverse.XDocument.csproj.FileListAbsolute.txt</file>
+          <file>\DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>\DirectoryTraverse.XDocument.csproj.FileListAbsolute.txt</file>
+          <file>\DirectoryTraverse.XDocument.exe</file>
+          <file>\DirectoryTraverse.XDocument.pdb</file>
+          <file>\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir path="../../../DirectoryTraverse.XDocument\Properties">
+        <file>\AssemblyInfo.cs</file>
+      </dir>
+      <file>\10.DirectoryTraverse.csproj</file>
+      <file>\App.config</file>
+      <file>\DirectoryTraverser.cs</file>
+      <file>\EntryPoint.cs</file>
+    </dir>
+    <file>album.xml</file>
+    <file>catalog-backup.xml</file>
+    <file>catalog.xml</file>
+    <file>directory-with-XDocument.xml</file>
+    <file>directory.xml</file>
+    <file>people.txt</file>
+    <file>people.xml</file>
+    <file>StyleCop.Cache</file>
+    <file>XML-Processing.sln</file>
+  </dir>
+</directory>

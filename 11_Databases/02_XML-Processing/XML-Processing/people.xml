@@ -1,0 +1,17 @@
+<people>
+  <person>
+    <name>Pesho</name>
+    <address>Address of Pesho</address>
+    <phone>0888 888 888</phone>
+  </person>
+  <person>
+    <name>Gosho</name>
+    <address>Address of Gosho</address>
+    <phone>0888 777 777</phone>
+  </person>
+  <person>
+    <name>Mariika</name>
+    <address>Address of Mariika</address>
+    <phone>0888 999 999</phone>
+  </person>
+</people>
