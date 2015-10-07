@@ -1,0 +1,1 @@
+SELECT REPLACE(CONVERT(nvarchar, GETDATE(), 121), '-', '.')
